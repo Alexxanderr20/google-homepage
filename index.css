@@ -8,6 +8,10 @@ li a
     display: block;
     text-align: center;
     padding: 14px 16px;
+}
+
+a:link
+{
     text-decoration: none;
 }
 
@@ -19,7 +23,7 @@ li a
     height: 40px;
     text-align: center;
 }
-*/
+
 .header
 {
     width: 100%;
@@ -34,7 +38,7 @@ li a
     display: inline-block;
     margin: 12px 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .header .left-top-nav
@@ -49,11 +53,82 @@ li a
     margin-right: 15px;
 }
 
-#image
+.iconify[data-icon="ic:baseline-apps"] {
+    display: inline-block;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+    position: relative;
+}
+
+.main {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#google-search
 {
-    display: block;
+
+}
+
+#lucky
+{
+
+}
+
+.search
+{
+    position: flex;
+    padding-top: 15px;
+    margin: auto;
+    width: 225px;
+}
+
+.search-bar
+{
+    position: flex;
     margin: 0 auto;
-    vertical-align: middle;
+    width: 550px;
+
+}
+
+.search-box
+{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.search-box .icon {
+    height: 20px;
+    width: 20px;
+    color: #9AA0A6;
+    margin: 12px 0px 0px 12px;
+}
+
+.search-input {
+    display: block;
+    border: 0px;
+    width: 455px;
+    outline: none;
+    margin-left: 12px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+}
+
+#Google
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 30px;
 }
 
 .footer
@@ -63,6 +138,7 @@ li a
     left: 0;
     bottom: 0;
     height: 50px;
+    background-color: gainsboro;
 }
 
 .footer .footer-left
@@ -82,7 +158,7 @@ li a
     display: inline-block;
     margin: 12px 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:  15px;
+    font-size:  12px;
 }
 
 #sign-in
