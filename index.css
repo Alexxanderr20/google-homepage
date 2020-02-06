@@ -70,20 +70,20 @@ a:link
 	margin: auto;
 }
 
-.search
+#Google
 {
-    position: flex;
-    padding-top: 15px;
-    margin: auto;
-    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
 }
+
 
 .search-bar
 {
-    position: flex;
+    position: relative;
     margin: 0 auto;
     width: 550px;
-
 }
 
 .search-box
@@ -95,7 +95,8 @@ a:link
     margin: 0 auto;
 }
 
-.search-box .icon {
+.search-box .icon 
+{
     height: 20px;
     width: 20px;
     color: #9AA0A6;
@@ -109,8 +110,32 @@ a:link
     outline: none;
     margin-left: 12px;
     font-family: arial, sans-serif;
-    font-size: 13px;
+    font-size: 16px;
+}
 
+.search-button
+{
+    text-align: center;
+    padding-top: 18px;
+    width: auto;
+}
+
+.sb
+{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 #Google
@@ -160,46 +185,4 @@ a:link
     background: linear-gradient(#4387fd,#4683ea);
     color: #ffffff;
     font-size: 15px;
-}
-
-
- .search-button
-{
-text-align: center;
-padding-top:  18px;
-width: 80%;
-}
-
-.search-bar
-{
-    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-    border: 1px;
-    border-radius: 4px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0px 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.sb
-{
-    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-    border: 1px;
-    border-radius: 4px;
-    color: #5F6368;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0px 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
 };
