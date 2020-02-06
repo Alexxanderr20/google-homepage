@@ -1,0 +1,1 @@
+In this project, I learned the basics of HTML and CSS, as well as using both Git and GitHub. Using these invaluable tools I was able to create the iconic www.Google.com webpage.
